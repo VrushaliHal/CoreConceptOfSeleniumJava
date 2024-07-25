@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Session Suite" verbose="1">
+    <listeners>
+        <listener class-name="testNGBasics.MyTransformer"/>
+    </listeners>
+
+   <test name="TestNG Concept">
+                <classes>
+                    <class name="testNGBasics.TestRetry"/>
+
+                </classes>
+
+    </test>
+
+   </suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SeleniumProject(failed)">
+    <classes>
+      <class name="testNGBasics.TestRetry">
+        <methods>
+          <include name="drive"/>
+          <include name="swim"/>
+          <include name="ride"/>
+        </methods>
+      </class> <!-- testNGBasics.TestRetry -->
+    </classes>
+  </test> <!-- SeleniumProject(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
